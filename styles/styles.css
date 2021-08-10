@@ -18,25 +18,79 @@
     justify-content: flex-start;
 }
 
+.header .left p {
+    padding: 0 10px 10px 10px;
+    color: #222222;
+}
 .header .right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.header .right #signin {
+    background-color: rgb(85, 85, 255);
+    color: #EEEEEE;
+    height: 66%;
+    width: 20%;
+    margin-top: 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+}
 .header .right p {
-    margin-bottom: 5px;
+    padding: 0 10px 10px 10px;
+    color: #222222;
 }
 
 .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.main .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 175px;
+    user-select: none;
+}
+
+.main .name #g {
+    font-size: 75px;
+    color: blue;
+}
+
+.main .name #o {
+    font-size: 75px;
+    color: red;
+}
+
+.main .name #o2 {
+    font-size: 75px;
+    color: yellow;
+}
+
+.main .name #g2 {
+    font-size: 75px;
+    color: blue;
+}
+
+.main .name #l {
+    font-size: 75px;
+    color: green;
+}
+
+.main .name #e {
+    font-size: 75px;
+    color: red;
+}
+
 .main #search-input {
-    width: 50px;
-    height: 20px;
+    width: 50%;
+    height: 30px;
+    border-radius: 20%;
 }
 
 .footer {
