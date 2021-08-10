@@ -93,6 +93,20 @@
     border-radius: 20%;
 }
 
+.main .buttons {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    height: 12.5%;
+    width: 50%;
+    gap: 5%;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.main #covid {
+    width: 225%;
+}
+
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -102,6 +116,15 @@
     flex-direction: row;
     justify-content: flex-start;
 }
+
+.footer .left p {
+    padding: 0 10px 10px 0;
+}
+
+.footer .right p {
+    padding: 0 10px 10px 0;
+}
+
 .footer .middle {
     display: flex;
     flex-direction: row;
