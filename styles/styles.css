@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 #page {
     display: grid;
     grid-template-rows: 5% 90% 5%;
@@ -33,8 +37,8 @@
     color: #EEEEEE;
     height: 66%;
     width: 20%;
-    margin-top: 5px;
-    padding: 10px 10px 10px 10px;
+    margin: 5px 10px 0 5px;
+    padding: 5px 10px 10px 10px;
     border-radius: 5%;
 }
 .header .right p {
@@ -42,48 +46,54 @@
     color: #222222;
 }
 
+.header p{
+    margin: 10px 0 0 10px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    width: 100vw;
 }
 
 .main .name {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 175px;
+    height: 200px;
     user-select: none;
 }
 
 .main .name #g {
-    font-size: 75px;
+    font-size: 85px;
     color: blue;
 }
 
 .main .name #o {
-    font-size: 75px;
+    font-size: 85px;
     color: red;
 }
 
 .main .name #o2 {
-    font-size: 75px;
+    font-size: 85px;
     color: yellow;
 }
 
 .main .name #g2 {
-    font-size: 75px;
+    font-size: 85px;
     color: blue;
 }
 
 .main .name #l {
-    font-size: 75px;
+    font-size: 85px;
     color: green;
 }
 
 .main .name #e {
-    font-size: 75px;
+    font-size: 85px;
     color: red;
 }
 
@@ -96,7 +106,7 @@
 .main .buttons {
     display: grid;
     grid-template-columns: 35% 35%;
-    height: 12.5%;
+    height: 10vh;
     width: 50%;
     gap: 5%;
     margin-top: 25px;
@@ -110,11 +120,14 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(204, 204, 204);
+    color: gray;
 }
 .footer .left {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-left: 10px;
 }
 
 .footer .left p {
@@ -134,4 +147,5 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-right: 10px;
 }
