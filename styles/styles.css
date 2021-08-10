@@ -33,13 +33,16 @@
 }
 
 .header .right #signin {
+    border-radius: 5px;
+    border-color: none;
+    border-style: unset;
     background-color: rgb(85, 85, 255);
     color: #EEEEEE;
     height: 66%;
-    width: 20%;
+    width: 10vw;
+    max-width: 90px;
     margin: 5px 10px 0 5px;
-    padding: 5px 10px 10px 10px;
-    border-radius: 5%;
+    padding: 6px 10px 10px 10px;    
 }
 .header .right p {
     padding: 0 10px 10px 10px;
@@ -101,6 +104,7 @@
 
 .main #search-input {
     width: 50%;
+    max-width: 700px;
     height: 40px;
     font-size: 20px;
     padding: 0 10px 0 10px;
@@ -149,6 +153,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(236, 236, 236);
+    justify-content: center;
     color: rgb(73, 73, 73);
 }
 .footer .left {
@@ -156,21 +161,28 @@
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 10px;
+    min-width: 300px;
 }
 
 .footer .left p {
-    padding: 0 10px 10px 0;
+    padding: 15px 10px 10px 0;    
 }
 
 .footer .right p {
-    padding: 0 10px 10px 0;
+    padding: 15px 10px 10px 0;
 }
+
+.footer .middle p {
+    padding: 15px 10px 10px 0;
+}
+
 
 .footer .middle {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .footer .right {
     display: flex;
     flex-direction: row;
