@@ -98,10 +98,12 @@
 }
 
 .main #search-input {
-    width: 50%;
+    width: 45%;
     height: 30px;
-    border-radius: 20%;
-    border-color
+    border-radius: unset;
+    border-radius: 25vw;
+    border-color: lightblue;
+    user-select: none;
 }
 
 .main .buttons {
