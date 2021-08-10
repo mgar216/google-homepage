@@ -84,7 +84,7 @@
 
 .main .name #o2 {
     font-size: 85px;
-    color: rgb(255, 255, 95);
+    color: rgb(255, 218, 95);
 }
 
 .main .name #g2 {
@@ -103,15 +103,15 @@
 }
 
 .main #search-input {
-    width: 50%;
+    width: 66%;
     max-width: 700px;
     height: 40px;
     font-size: 20px;
     padding: 0 10px 0 10px;
-    border-radius: unset;
     border-radius: 25vw;
     border-style: solid;
-    border-color: lightblue;
+    border-width: 1px;
+    border-color: lightgray;
     user-select: none;
     flex-grow: 50%;
 }
