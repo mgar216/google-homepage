@@ -65,45 +65,51 @@
     justify-content: center;
     height: 110px;
     user-select: none;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 .main .name #g {
     font-size: 85px;
-    color: blue;
+    color: rgb(87, 87, 255);
 }
 
 .main .name #o {
     font-size: 85px;
-    color: red;
+    color: rgb(252, 78, 78);
 }
 
 .main .name #o2 {
     font-size: 85px;
-    color: yellow;
+    color: rgb(255, 255, 95);
 }
 
 .main .name #g2 {
     font-size: 85px;
-    color: blue;
+    color: rgb(87, 87, 255);
 }
 
 .main .name #l {
     font-size: 85px;
-    color: green;
+    color: rgb(60, 133, 60);
 }
 
 .main .name #e {
     font-size: 85px;
-    color: red;
+    color: rgb(252, 78, 78);
 }
 
 .main #search-input {
-    width: 45%;
-    height: 30px;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 10px 0 10px;
     border-radius: unset;
     border-radius: 25vw;
+    border-style: solid;
     border-color: lightblue;
     user-select: none;
+    flex-grow: 50%;
 }
 
 .main .buttons {
@@ -114,6 +120,20 @@
     gap: 5%;
     margin-top: 25px;
     justify-content: center;
+}
+
+.main .buttons #search-button {
+    border-radius: 5px;
+    border-color: none;
+    border-style: unset;
+    color: rgb(59, 59, 59);
+}
+
+.main .buttons #lucky-button {
+    border-radius: 5px;
+    border-color: none;
+    border-style: unset;
+    color: rgb(59, 59, 59);
 }
 
 .main #covid {
@@ -128,8 +148,8 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(204, 204, 204);
-    color: gray;
+    background-color: rgb(236, 236, 236);
+    color: rgb(73, 73, 73);
 }
 .footer .left {
     display: flex;
